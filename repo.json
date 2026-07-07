@@ -17,8 +17,8 @@
         "CategoryTags": [ "Other" ],
         "IconUrl": "https://github.com/NNekoPlugins/NNekoTemplate/Data/NNeko.png",
         "RepoUrl": "https://github.com/NNekoPlugins/NNekoTemplate",
-        "DownloadLinkInstall": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip"
+        "DownloadLinkInstall": "https://github.com/NNekoPlugins/DispellerPlugin/releases/download/v1.3/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NNekoPlugins/DispellerPlugin/releases/download/v1.3/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/DispellerPlugin/releases/download/v1.3/latest.zip"
     }
 ]
