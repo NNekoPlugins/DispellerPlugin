@@ -1,9 +1,3 @@
-> ⚠️ **Don't click Fork!**
-> 
-> This is a GitHub Template repo. If you want to use this for a plugin, [use this template][new-repo] to make a new repo!
->
-> ![image](./Data/Template_No_Fork.png)
-
 <div align="center">
 
 <span><img src="./Data/NNeko.png" alt="Rendering of a Fantasy stone arch, bedecked with crystals, and filled with a swirling, arcane portal." width="15%"></span>
