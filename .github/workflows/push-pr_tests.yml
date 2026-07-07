@@ -4,15 +4,15 @@ on:
   push:
     branches: [main]
     paths:
-      - "NNekoTemplate/**/*.cs"
-      - "NNekoTemplate/**/*.csproj"
-      - "NNekoTemplate/**/*.resx"
+      - "Dispeller/**/*.cs"
+      - "Dispeller/**/*.csproj"
+      - "Dispeller/**/*.resx"
   pull_request:
     branches: [main]
     paths:
-      - "NNekoTemplate/**/*.cs"
-      - "NNekoTemplate/**/*.csproj"
-      - "NNekoTemplate/**/*.resx"
+      - "Dispeller/**/*.cs"
+      - "Dispeller/**/*.csproj"
+      - "Dispeller/**/*.resx"
     types: [ready_for_review, opened, synchronize, reopened]
   workflow_dispatch:
 
@@ -55,9 +55,9 @@ jobs:
           cat lint.txt | sed -E 's/^(.*)$/::warning:: \1/g'
 
       - name: Restore Project
-        run: dotnet restore NNekoTemplate/NNekoTemplate.csproj
+        run: dotnet restore Dispeller/Dispeller.csproj
 
       - name: Build Project
         run: | 
           dotnet build -c ${{ matrix.build_mode }}
-          echo "Checksum: $(sha512sum bin/x64/${{ matrix.build_mode }}/NNekoTemplate.dll)"
+          echo "Checksum: $(sha512sum bin/x64/${{ matrix.build_mode }}/Dispeller.dll)"
