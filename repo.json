@@ -15,10 +15,10 @@
         "Description": "A cute plugin to help you manage your Glamour Dresser by identifying items that share the same visual models.",
         "Tags": [ "pupwife", "glamour", "dresser", "models", "fashion", "cute", "utility" ],
         "CategoryTags": [ "Other" ],
-        "IconUrl": "https://github.com/NNekoPlugins/DispellerPlugin/Data/Dispeller.png",
-        "RepoUrl": "https://github.com/NNekoPlugins/DispellerPlugin",
-        "DownloadLinkInstall": "https://github.com/NNekoPlugins/DispellerPlugin/releases/download/v1.5/latest.zip",
-        "DownloadLinkTesting": "https://github.com/NNekoPlugins/DispellerPlugin/releases/download/v1.5/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/DispellerPlugin/releases/download/v1.5/latest.zip"
+        "IconUrl": "https://github.com/NNekoPlugins/Dispeller/Data/Dispeller.png",
+        "RepoUrl": "https://github.com/NNekoPlugins/Dispeller",
+        "DownloadLinkInstall": "https://github.com/NNekoPlugins/Dispeller/releases/download/v1.5/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NNekoPlugins/Dispeller/releases/download/v1.5/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/Dispeller/releases/download/v1.5/latest.zip"
     }
 ]
