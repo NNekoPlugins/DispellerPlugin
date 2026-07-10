@@ -2,7 +2,7 @@
 <Project Sdk="Dalamud.NET.Sdk/15.0.0">
   <PropertyGroup>
     <Name>Dispeller</Name>
-    <Author>pupwife</Author>
+    <Author>pupwife,NaughtyNeko</Author>
     <Punchline>Easily clean out your Glamour Dresser.</Punchline>
     <Description>A cute plugin to help you manage your Glamour Dresser by identifying items that share the same visual models.</Description>
     <Tags>glamour,dresser,models,fashion,cute,utility</Tags>
@@ -27,7 +27,7 @@
     <Content Include="..\Data\**" CopyToOutputDirectory="Always" />
     <Content Remove="..\Data\Template_No_Fork.png" />
     <Content Include="Dispeller.json" />
-    <None Update="NNekoTemplate.json">
+    <None Update="Dispeller.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <PackageReference Include="ECommons" Version="3.2.1.15" />
